@@ -10,7 +10,7 @@ public class GameEngine {
     public char getCell(int row, int col) {
         return board[row][col];
     }
-    
+
     public GameEngine() {
         board = new char[3][3];
         currentPlayer = 'X';
