@@ -2,6 +2,11 @@ public class GameEngine {
     private char[][] board;
     private char currentPlayer;
 
+    public void resetGame() {
+        initializeBoard();
+        currentPlayer = 'X';
+    }
+
     public GameEngine() {
         board = new char[3][3];
         currentPlayer = 'X';
