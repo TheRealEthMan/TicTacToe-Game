@@ -12,5 +12,4 @@ public class TicTacToe {
         System.out.println(" | | ");
     }
 
-    // TODO: Improve player instructions in a future update.
 }
